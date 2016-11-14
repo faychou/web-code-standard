@@ -1,10 +1,10 @@
 # web-code-standard
 ## CSS代码规范
 ### 一、css命名<br/>
-    1、面向属性的css命名：所有的css样式统一使用class选择器，尽量避免使用ID选择器；同时在命名的时候，名字要实现语义化，根据css属性来命名。
-    <br/>
-    2、常用的css命名建议：
-    头：header
+1、面向属性的css命名：<br/>
+    所有的css样式统一使用class选择器，尽量避免使用ID选择器；同时在命名的时候，名字要实现语义化，根据css属性来命名。
+2、常用的css命名建议：<br/>
+    头部：header
     内容：content/container
     尾：footer
     导航：nav
