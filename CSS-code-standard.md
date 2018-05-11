@@ -20,6 +20,7 @@
     页脚：footer
     导航：nav
     子导航：subnav
+    面包屑: crumb
     侧栏：sidebar
     栏目：column
     菜单：menu
@@ -40,6 +41,7 @@
     内容：content
     标签页：tab
     文章列表：list
+    幻灯片：slide
     提示信息：msg
     小技巧：tips
     栏目标题：title
@@ -88,12 +90,13 @@
 
  同一 rule set 下的属性在书写时，应按功能进行分组，并以 **Formatting Model（布局方式、位置） > Box Model（尺寸） > Typographic（文本相关） > Visual（视觉效果）** 的顺序书写，以提高代码的可读性。
 
-解释：
+* Formatting Model 相关属性包括：`position` 、 `top` 、 `right` 、 `bottom` 、 `left` 、 `float` 、 `display` 、 `overflow` 、 `z-index` 等；
 
-- Formatting Model 相关属性包括：`position` / `top` / `right` / `bottom` / `left` / `float` / `display` / `overflow` 等
-- Box Model 相关属性包括：`border` / `margin` / `padding` / `width` / `height` 等
-- Typographic 相关属性包括：`font` / `line-height` / `text-align` / `word-wrap` 等
-- Visual 相关属性包括：`background` / `color` / `transition` / `list-style` 等
+* Box Model 相关属性包括：`width` 、 `height` 、 `border` 、 `margin` 、 `padding`  等；
+
+* Typographic 相关属性包括：`font` 、 `line-height` 、 `text-align` 、 `word-wrap` 等；
+
+* Visual 相关属性包括：`background` 、 `color` 、 `transition` 、 `list-style` 、 `animation` 等。
 
 另外，如果包含 `content` 属性，应放在最前面。
 
